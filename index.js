@@ -2,13 +2,16 @@ function shout(string) {
   return string.toUpperCase(); 
 }
 
-function logShout(string) {
-  console.log(string.toUpperCase())
-}
 
 function whisper(string) {
   return string.toLowerCase();
 }
+
+function logShout(string) {
+  console.log(string.toUpperCase())
+}
+
+
 
 function logWhisper(string) {
   console.log(string.toLowerCase())
@@ -26,3 +29,5 @@ function sayHiToHeadphonedRoommate(string) {
     return "I would love to!"
   }
 }
+
+console.log(sayHiToHeadphonedRoommate("Let's have dinner together!"))
